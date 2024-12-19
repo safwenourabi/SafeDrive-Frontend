@@ -1,5 +1,6 @@
 import bannerHero from "../assets/bannerHero.svg";
 import banner from "../assets/banner.jpg";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section className="bg-white dark:bg-gray-900 py-20">
@@ -11,8 +12,8 @@ const Home = () => {
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
           From pinpointing hazardous zones to forecasting road accident risks, drivers and municipalities around the world use SafeDrive to enhance road safety and make informed travel decisions.
           </p>
-          <a
-            href="#"
+          <Link
+            to="/map"
             className="inline-flex bg-blue-700 items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
             Get started
@@ -28,7 +29,7 @@ const Home = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </Link>
         </div>
         <div className=" lg:mt-0 lg:col-span-5 lg:flex rounded-[10px] ">
           <img

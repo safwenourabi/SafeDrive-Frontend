@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/map" element={<MapPage />} />
         <Route path="/" element={<Home />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route path="*" element={<Home />} /> 
       </Routes>
     </div>
   );

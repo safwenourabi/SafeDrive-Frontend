@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, Circle, useMapEvent } from "react-leaflet";
 import { LatLngExpression } from "leaflet";
 import axios from "axios";
